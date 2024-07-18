@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+  height: 100px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+ul li {
+  margin-left: 17px;
+}
+
+/* main */
+
+main {
+  background-image: url('https://wallpaperaccess.com/full/1754747.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-attachment: fixed;
+  width: 100%;
+ 
+}
+.main-background {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+}
+.text-section {
+  padding-top: 26%;
+  padding-left: 7%;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+.text-section span {
+  font-size: 35px;
+  font-weight: 600;
+}
+.text-section button {
+  color: white;
+  background-color: rgb(9, 46, 46);
+  padding: 3px 12px;
+  border: none;
+ box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+}
+@media(max-width:576px) {
+  .text-section p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .text-section span {
+    font-size: 20px;
+  }
+  .text-section button {
+    font-size: 16px;
+  }
+  .text-section {
+    padding-top: 85%;
+  }
+}
+/* main -2  */
+
+.courses {
+  margin-top: 6%;
+  background: linear-gradient(to bottom , rgb(244, 238, 238) 0% , rgb(155, 148, 148) 100% );
+}
+
+@media(max-width:576px) {
+  .courses h1 {
+    font-weight: bold;
+  }
+  .courses .course-parts {
+    margin: auto;
+  }
+}
+
+/* main - 3 */
+
+.about {
+  padding: 10% 0%;
+  background-color: rgba(121, 127, 133, 0.753);
+
+}
+#hr {
+  height: 0.3rem;
+  width: 6.5rem;
+  background-color: rgba(33, 32, 32, 0.601);
+  margin-bottom: 23px;
+}
+.about-head {
+  font-weight: 700;
+}
+.about p {
+  text-align: justify;
+}
+#imgborder {
+  border: 6px solid rgb(11, 39, 39);
+  width: 104%;
+  height: 342px;
+}
+.about img {
+  position: relative;
+  top: 4%;
+  right: 3%;
+}
+
+@media(max-width:567px)  {
+  .about {
+    margin-bottom: 2px;
+  }
+  .about img {
+    width: 80%;
+    margin-left: 50px; 
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+   }
+   .about #imgborder {
+    border: 6px solid transparent;
+    height: 270px;
+   }
+   .about  .about-section {
+    padding: 0px 40px;
+    margin-left: 10px;
+   }
+   .about-section .about-head {
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   }
+   .about-section #hr {
+    display: none;
+    
+}
+
+/* main 4 */
+
+.main-4 {
+  background-color: rgba(121, 127, 133, 0.753);
+  width: 105%;
+}
+.course-gallery {
+  padding-bottom: 40px;
+}
+.project-gallery-div-1 {
+  position: relative;
+}
+.project-gallery-div-2 {
+  width: 50%;
+  height: 8%;
+  background-color: rgba(0, 0, 0, 0.764);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding-top: 4px;
+
+}
+.project-gallery-div-3 {
+  width: 100%;
+  height: 14%;
+  background-color: rgba(0, 0, 0, 0.697);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+@media(max-width:567px) {
+  .main-class img {
+    width: 70%;
+     margin-left: 60px;
+  }
+ 
+  .project-gallery-div-2 h3{
+    font-size: 16px;
+
+  }
+  .project-gallery-div-2 {
+    width: 70%;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    margin-left: 60px;
+  }
+  .project-gallery-div-3 {
+    width: 70%;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    margin-left: 60px;
+  }
+  .colss {
+    margin: 30px 0px;
+  }
+}
+ /* carousel */
+
+ .carousel-item  img{
+   display: block;
+   width: 100%;
+   height: 650px;
+   object-fit: cover;
+ }
+
+
+ 

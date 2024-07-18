@@ -1,0 +1,252 @@
+* {
+  font-family: "Kanit", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* navbar starts */
+:root{
+  --x:rgb(79,7,7);
+}
+#logo {
+  height: 100px;
+  width: 100%;
+}
+/* i {
+  font-size: 25px;
+} */
+
+ul li {
+  font-size: 20px;
+ 
+}
+li i {
+  color: rgb(74, 72, 72);
+}
+li i:hover {
+  color: black;
+  cursor: pointer;
+}
+#button-1 {
+  background-color: var(--x);
+  color: white;
+  border: 2px solid var(--x);
+}
+#button-1:hover {
+  background-color: white;
+  color: var(--x);
+  border: 2px solid var(--x);
+}
+
+@media(max-width:992px) {
+  .nav-item i {
+    display: none;
+  }
+}
+ 
+/* navbar ends */
+
+
+
+
+
+
+/* main starts */
+
+
+#main {
+  background-image: url('https://wallpaperaccess.com/full/1344488.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  width: 100%;
+}
+/* for background-color opacity */
+#part { 
+  height: 100vh;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.433);
+}  
+#welcome {
+  padding-top: 20%;
+  padding-left: 5%;
+  height: 500px;
+}
+#welcome h4 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-bottom: -15px;
+}
+#welcome p {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: -33px;
+}
+ 
+
+@media(max-width:600px) {
+  /* #main{
+    background-position: bottom;
+  } */
+  #welcome h4 {
+    font-size: 20px;
+  }
+  #welcome p {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  #main , #part{
+    height: 600px;
+  }
+}
+/* main ends */
+
+/* main - 2 starts */
+
+#work {
+  margin-top: 10%;
+  background-image: url('https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#part-1 {
+  
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+ 
+ 
+/* main - 2 ends */
+
+
+/* main - 3 starts */
+
+#about {
+  background-color: rgb(193, 186, 186);
+  padding: 10% 0%;
+}
+
+#hr {
+  height: 0.3rem;
+  width: 14rem;
+  background-color: rgb(33, 32, 32);
+}
+#about h1{
+  color:  rgb(47, 43, 43);
+}
+#about p {
+  text-align: justify;
+}
+#abImg {
+  border: 7px solid var(--x);
+  width: 100%;
+  height: 410px;
+  padding-top: 4%;
+  padding-left: 4%;
+}
+@media(max-width:767px) {
+   .image-section img{
+    width: 90%;
+    margin-left: -16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+   }
+   .image-section #abImg {
+    width: 85%;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    border: 7px solid transparent;
+    
+   }
+}
+
+/* main - 4 */
+
+.project-gallery-div-1 {
+  position: relative;
+ 
+ 
+}
+ 
+.project-gallery-div-2  , .project-gallery-div-3 {
+  width: 50%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.764);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+.project-gallery-div-3
+{
+  height: 20%;
+
+}
+
+@media(min-width:667px) and (max-width:997px )   {
+  .images {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .gallery-2 {
+    /* margin-top: 10px; */
+    /* margin-left: 5px; */
+  }
+}
+@media(max-width:667px) {
+  .images {
+    padding-left: 35px;
+    margin-bottom: 230px;
+  }
+  .gap-image , .gaps {
+    margin-bottom: 10px;
+  }
+  .project-gallery-div-2 {
+    width: 90%;
+    height: 20%;
+    
+  }
+  .project-gallery-div-2 h3 {
+    margin-top: 7px;
+  }
+  .container-fluid  img {
+    object-fit: cover;
+    
+  }
+ 
+  
+}
+
+/* main - 5 */
+.carousel-item  img  {
+  height: 750px;
+  width: 100%;
+  display: block;
+}
+
+ 
+@media(min-width:771px) {
+  .lastimg {
+    height: 503px;
+  }
+}
+
+/* main - 6 */
+@media(max-width:667px) { 
+.carousel-item  img {
+  height: 380px;
+}
+}
+ 
+
